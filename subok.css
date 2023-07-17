@@ -1,0 +1,38 @@
+body{
+  display: flex;
+  flex-direction: row;
+}
+
+#navbar{
+  background-color: aqua;
+  height: 100%;
+  width: 25%;
+  border: 2px solid black;
+  position:fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+}
+
+#mainframe{
+  background-color: rgb(230, 164, 83);
+  height: 100%;
+  width: 75%;
+  right: 0;
+  top: 0;
+  position: absolute;
+}
+#navlink{
+  text-decoration: none;
+  list-style-type: none;
+  line-height: 8.5vh;
+  text-indent: 5vh;
+  font-family: sans-serif;
+  font-style: oblique;
+  font-size: 20px;
+ 
+}
+#navlink li{
+  border: 1px solid black;
+  width: 85%;
+}
